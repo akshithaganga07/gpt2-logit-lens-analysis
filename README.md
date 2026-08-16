@@ -92,7 +92,7 @@ This demonstrates how Logit Lens can provide a simple window into the evolution 
 
 The complete implementation and experimental results are available in:
 
-`GPT2_Logit_Lens_Analysis.ipynb`
+`GPT_2_Logit_Lens_Analysis.ipynb`
 
 The notebook can be run using **Google Colab**.
 
