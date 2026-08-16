@@ -63,7 +63,7 @@ The experiment showed that expected-answer tokens generally became more prominen
 | Eiffel Tower → Paris |         11 |               1.29% |
 
 The strength of the expected-answer signal varied considerably between prompts. This suggests that different factual associations are represented with different strengths within the model.
-
+The Eiffel Tower prompt showed a notably weaker signal (1.29%) than the direct 'capital of France' phrasing (18.19%), suggesting the model may represent 'located in' as pointing toward a country rather than a city — echoing the pattern where 'France' also outranked 'Paris' as the top prediction for the direct prompt.
 ## Key Finding
 
 The analysis indicates that useful factual information can become visible in intermediate GPT-2 representations before the final output stage. However, the probability of an expected answer does not necessarily increase monotonically through the network.
